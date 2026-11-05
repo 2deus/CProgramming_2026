@@ -1,0 +1,34 @@
+// ch3 / 3.4 Switch
+// The digit / white space / other counting program from ch1 (1.6),
+// rewritten with a switch statement. break exits the switch.
+#include <stdio.h>
+
+main() {
+    int c, i, nwhite, nother;
+    int ndigit[10] = {0};   // zero the array
+
+    nwhite = nother = 0;
+
+    while ((c = getchar()) != EOF) {
+        switch (c) {
+        case '0': case '1': case '2': case '3': case '4':
+        case '5': case '6': case '7': case '8': case '9':
+            ndigit[c - '0']++;
+            break;
+        case ' ':
+        case '\n':
+        case '\t':
+            nwhite++;
+            break;
+        default:
+            nother++;
+            break;   // not needed, but recommended after the last case
+        }
+    }
+
+    printf("digits =");
+    for (i = 0; i < 10; ++i) printf(" %d", ndigit[i]);
+
+    printf(", white space = %d, other = %d\n", nwhite, nother);
+    return 0;
+}
