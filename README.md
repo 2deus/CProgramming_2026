@@ -76,6 +76,28 @@ Files that are not textbook exercises use `<order>.ex_<name>.c`.
 
 ---
 
+### ch5 – Pointers & Arrays
+| File | Section, exercise | Purpose |
+|------|--------------------|--------------|
+| `1.ex_pointer_basics.c` | 5.1 | Address and pointer operators |
+| `2.ex_swap_call_by_reference.c` | 5.2 | Wrong swap vs. `swap(&a, &b)` |
+| `3.ex_getint.c` | 5.2 | `getint(&n)`: read integers from input using pointer |
+| `4.ex_pointers_and_arrays.c` | 5.3 | Reimplement strlen using pointer |
+| `5.ex_string_copy_compare.c` | 5.4 | Array vs. pointer strings & pointer versions of `strcpy` and `strcmp` |
+| `6.ex-5.3_strcat.c` | 5.4, Ex 5-3 | Pointer version of `strcat(s, t)` |
+| `7.ex-5.4_strend.c` | 5.4, Ex 5-4 | `strend(s, t)` using pointer |
+| `8.ex-5.5_strncpy_strncat_strncmp.c` | 5.4, Ex 5-5 | Reimplement `strncpy`, `strncat`, `strncmp` |
+| `9.ex-5.6_pointer_versions.c` | 5.4, Ex 5-6 | `getline`, `atoi`, `itoa`, `reverse`, `strindex` using pointer |
+| `10.ex_sort_lines_alloc.c` | 5.6 | Sort input lines using pointer array, quicksort and `alloc` |
+| `11.ex-5.7_sort_lines_linestor.c` | 5.6, Ex 5-7 | Ditto, but storing lines in `linestor[]` from `main()` |
+| `12.ex_malloc_calloc.c` | Dynamic memory | `malloc`, `calloc`, `free` example |
+| `13.ex-5.8_day_of_year_error_check.c` | 5.7, Ex 5-8 | `day_of_year` & `month_day` using 2D array, checking errors |
+| `14.ex_month_name_pointer_array.c` | 5.8–5.9 | `month_name(n)`, pointer array vs. 2D array |
+| `15.ex_echo_command_line_args.c` | 5.10 | `main()` arguments |
+| `16.ex_find_pattern_args.c` | 5.10 | `find -x -n pattern` using `main()` arguments |
+
+---
+
 ## 🛠️ How to Compile & Run
 *This guide assumes you have Visual Studio 2022 installed.*
 
