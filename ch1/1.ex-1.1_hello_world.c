@@ -1,8 +1,7 @@
 // ch1 / 1.1 Getting Started
-// first C program, prints "hello, world".
-// remove parts to see the errors
-
-#include <stdio.h>   // for i/o lib for printf
+// Ex 1-1: first C program, prints "hello, world".
+// Remove parts (the semicolon, a brace, the #include) to see the errors.
+#include <stdio.h>   // i/o library, for printf
 
 main() {
     printf("hello, world\n");
