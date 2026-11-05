@@ -41,7 +41,7 @@ Files that are not textbook exercises use `<order>.ex_<name>.c`.
 ---
 
 ### ch2 – Types, Operators & Expressions
-| File | Section / Exercise | What it does |
+| File | Section, exercise | Purpose |
 |------|--------------------|--------------|
 | `1.ex-2.1_type_ranges.c` | 2.2, Ex 2-1 | Ranges of common variable types |
 | `2.ex_leap_year.c` | 2.5–2.6 | Leap year, using `%`, `&&`, `\|\|` |
@@ -53,7 +53,7 @@ Files that are not textbook exercises use `<order>.ex_<name>.c`.
 ---
 
 ### ch3 – Control Flow
-| File | Section / Exercise | What it does |
+| File | Section, exercise | Purpose |
 |------|--------------------|--------------|
 | `1.ex_binary_search.c` | 3.3 | Binary search |
 | `2.ex_count_digits_switch.c` | 3.4 | Digit & white space counting using `switch` |
@@ -61,6 +61,18 @@ Files that are not textbook exercises use `<order>.ex_<name>.c`.
 | `4.ex_itoa_do_while.c` | 3.6 | `itoa(n, s)` using do-while and `reverse` |
 | `5.ex_trim_break_continue.c` | 3.7 | `trim` with `break`, using `continue` |
 | `6.ex_goto_nested_loops.c` | 3.8 | `goto` to leave nested loops |
+
+---
+
+### ch4 – Functions & Program Structure
+| File | Section, exercise | Purpose |
+|------|--------------------|--------------|
+| `1.ex_pattern_search_ould.c` | 4.1 | Search for patterns in string |
+| `2.ex-4.1_strrindex.c` | 4.1, Ex 4-1 | Search for rightmost occurrence of pattern |
+| `3.ex_rpn_calculator.c` | 4.3 | Reverse Polish calculator |
+| `4.ex_rpn_calculator_negative_numbers.c` | 4.3 | RPN Calculator which reads negative numbers |
+| `5.ex-4.5_calculator_math_functions/` | 4.4–4.5, Ex 4-5 | Calculator split into 4 files and a header file; `sin`, `cos`, `exp`, `pow` |
+| `6.ex_preprocessor_macros.c` | 4.11 | Preprocessor macros |
 
 ---
 
