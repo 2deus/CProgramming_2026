@@ -40,6 +40,18 @@ Files that are not textbook exercises use `<order>.ex_<name>.c`.
 
 ---
 
+### ch2 – Types, Operators & Expressions
+| File | Section / Exercise | What it does |
+|------|--------------------|--------------|
+| `1.ex-2.1_type_ranges.c` | 2.2, Ex 2-1 | Ranges of common variable types |
+| `2.ex_leap_year.c` | 2.5–2.6 | Leap year, using `%`, `&&`, `\|\|` |
+| `3.ex-2.3_htoi.c` | 2.7, Ex 2-3 | Hex string to integer |
+| `4.ex-2.4_squeeze.c` | 2.8, Ex 2-4 | Squeeze function |
+| `5.ex-2.5_any.c` | 2.8, Ex 2-5 | Get first position of any char of s2 in s1 |
+| `6.ex-2.6_2.7_2.8_bit_operations.c` | 2.9, Ex 2-6/2-7/2-8 | `setbits`, `invert`, `rightrot` |
+
+---
+
 ## 🛠️ How to Compile & Run
 *This guide assumes you have Visual Studio 2022 installed.*
 
