@@ -52,6 +52,18 @@ Files that are not textbook exercises use `<order>.ex_<name>.c`.
 
 ---
 
+### ch3 – Control Flow
+| File | Section / Exercise | What it does |
+|------|--------------------|--------------|
+| `1.ex_binary_search.c` | 3.3 | Binary search |
+| `2.ex_count_digits_switch.c` | 3.4 | Digit & white space counting using `switch` |
+| `3.ex-3.2_escape_unescape.c` | 3.4, Ex 3-2 | `escape` / `unescape` for `\n` and `\t` |
+| `4.ex_itoa_do_while.c` | 3.6 | `itoa(n, s)` using do-while and `reverse` |
+| `5.ex_trim_break_continue.c` | 3.7 | `trim` with `break`, using `continue` |
+| `6.ex_goto_nested_loops.c` | 3.8 | `goto` to leave nested loops |
+
+---
+
 ## 🛠️ How to Compile & Run
 *This guide assumes you have Visual Studio 2022 installed.*
 
